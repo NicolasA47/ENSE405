@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://brccmy2vu2w6e"]
+
+[ext_resource type="Theme" uid="uid://c1k5tntk8k6mm" path="res://assets/themes/idle_recycle_theme.tres" id="1_3p4sv"]
+[ext_resource type="Script" path="res://scenes/menus/recyclable_display.gd" id="2_ymac1"]
+[ext_resource type="PackedScene" uid="uid://wey7we56r3q5" path="res://scenes/menus/item_display.tscn" id="3_o4g61"]
+
+[node name="RecyclableDisplay" type="GridContainer"]
+offset_right = 40.0
+offset_bottom = 48.0
+theme = ExtResource("1_3p4sv")
+columns = 4
+script = ExtResource("2_ymac1")
+item_display_template = ExtResource("3_o4g61")
+
+[node name="DisplayContainer" type="PanelContainer" parent="."]
+layout_mode = 2

@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://ilh6w65naccj"]
+
+[ext_resource type="Texture2D" uid="uid://122fwk5ofb8i" path="res://assets/characters/run_horizontal_32x32_2.png" id="1_j572w"]
+[ext_resource type="Script" path="res://scenes/levels/collector.gd" id="1_po7xm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g5efu"]
+size = Vector2(22, 38)
+
+[node name="collector" type="CharacterBody2D"]
+script = ExtResource("1_po7xm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_j572w")
+hframes = 24
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 13)
+shape = SubResource("RectangleShape2D_g5efu")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+avoidance_enabled = true
