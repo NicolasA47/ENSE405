@@ -30,6 +30,10 @@ Find all the documentation needed to understand the project's foundation here:
 ### Project Advisor
 **Tim Maciag**
 
+## Gameplay Flowchart
+![Gameplay Flowchart](Doccumentation/Gameplay%20Loop.png)
+
+
 ---
 
 Join us on this exciting journey to make recycling education interactive and fun with "Idle Recycle"!
