@@ -9,17 +9,17 @@ Idle games captivate players with their uncomplicated yet addictive gameplay. Se
 ## Initialization Documents
 Find all the documentation needed to understand the project's foundation here:
 
-- [Business Case](Doccumentation/InitializationDocs/pdf/Business Case.pdf)
-- [Community Characteristics Orientation](Doccumentation/InitializationDocs/pdf/Community characteristics orientation.pdf)
-- [Drafting an Emerging Picture](Doccumentation/InitializationDocs/pdf/Drafting an emerging picture.pdf)
-- [Project Requirements](Doccumentation/InitializationDocs/pdf/Project Requirements.pdf)
-- [Project Scope Statement](Doccumentation/InitializationDocs/pdf/Project Scope Statement.pdf)
-- [Stakeholder Analysis](ENSE405/Doccumentation/InitializationDocs/pdf/Stakeholder Analysis.pdf)
-- [Technology Configuration Inventory](ENSE405/Doccumentation/InitializationDocs/pdf/Technology configuration inventory.pdf)
+- [Business Case](Doccumentation/InitializationDocs/pdf/Business%20Case.pdf)
+- [Community Characteristics Orientation](Doccumentation/InitializationDocs/pdf/Community%20characteristics%20orientation.pdf)
+- [Drafting an Emerging Picture](Doccumentation/InitializationDocs/pdf/Drafting%20an%20emerging%20picture.pdf)
+- [Project Requirements](Doccumentation/InitializationDocs/pdf/Project%20Requirements.pdf)
+- [Project Scope Statement](Doccumentation/InitializationDocs/pdf/Project%20Scope%20Statement.pdf)
+- [Stakeholder Analysis](Doccumentation/InitializationDocs/pdf/Stakeholder%20Analysis.pdf)
+- [Technology Configuration Inventory](Doccumentation/InitializationDocs/pdf/Technology%20configuration%20inventory.pdf)
 
 ## Project Status Reports
-- [Project Status #1 - Nov 2](Doccumentation/Project Status Report - Scum 1.pdf)
-- [Project Status #2 - Nov 16](ENSE405/Doccumentation/Project Status Report - Scrum 2.pdf)
+- [Project Status #1 - Nov 2](Doccumentation/Project%20Status%20Report%20-%20Scum%201.pdf)
+- [Project Status #2 - Nov 16](Doccumentation/Project%20Status%20Report%20-%20Scrum%202.pdf)
 
 ## Meet the Team
 
