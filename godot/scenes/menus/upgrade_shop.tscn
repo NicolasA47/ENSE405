@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=3 uid="uid://cdqypvmqbwfn7"]
+
+[ext_resource type="Theme" uid="uid://c1k5tntk8k6mm" path="res://assets/themes/idle_recycle_theme.tres" id="1_rr22l"]
+[ext_resource type="Script" path="res://scenes/menus/upgrade_shop.gd" id="2_2nw7f"]
+[ext_resource type="PackedScene" uid="uid://dl523jbn2736l" path="res://scenes/menus/upgrade_container.tscn" id="3_jki7g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gjhj1"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.92549, 0.960784, 0.905882, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekic2"]
+bg_color = Color(0.615686, 0.286275, 0.321569, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="upgrade_shop" type="PanelContainer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -294.0
+offset_bottom = 357.0
+grow_horizontal = 0
+size_flags_horizontal = 4
+theme = ExtResource("1_rr22l")
+script = ExtResource("2_2nw7f")
+upgrade_container_template = ExtResource("3_jki7g")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="HBoxContainer1" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/HBoxContainer1"]
+layout_mode = 2
+bbcode_enabled = true
+text = "[center]Upgrade Shop[/center]"
+fit_content = true
+autowrap_mode = 0
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(200, 250)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gjhj1")
+
+[node name="UpgradesList" type="VBoxContainer" parent="VBoxContainer/HBoxContainer2/PanelContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="CloseButton" type="Button" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_ekic2")
+text = "Close Shop"
+
+[connection signal="pressed" from="VBoxContainer/MarginContainer/CloseButton" to="." method="_on_close_button_pressed"]

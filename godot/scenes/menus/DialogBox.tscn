@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=3 uid="uid://d3ya7kwex46td"]
+
+[ext_resource type="Texture2D" uid="uid://b6sh3gmrlykwa" path="res://assets/ui/message_box.png" id="1_j1q6u"]
+[ext_resource type="Script" path="res://scenes/menus/DialogBox.gd" id="1_kxpkn"]
+[ext_resource type="Texture2D" uid="uid://b5awvt3oi2q86" path="res://assets/items/x_icon.png" id="4_oxl06"]
+
+[node name="DialogBox" type="PanelContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -133.5
+offset_top = -27.0
+offset_right = 133.5
+offset_bottom = 27.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kxpkn")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_j1q6u")
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer"]
+layout_mode = 2
+bbcode_enabled = true
+text = "[center]Welcome To Idle Recycle!
+
+Tap the building to send out collectors...[/center]
+"
+fit_content = true
+
+[node name="TextureButton" type="TextureButton" parent="."]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+texture_normal = ExtResource("4_oxl06")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

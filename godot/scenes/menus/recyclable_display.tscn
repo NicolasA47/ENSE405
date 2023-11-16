@@ -12,5 +12,8 @@ columns = 4
 script = ExtResource("2_ymac1")
 item_display_template = ExtResource("3_o4g61")
 
-[node name="DisplayContainer" type="PanelContainer" parent="."]
+[node name="DisplayBackground" type="PanelContainer" parent="."]
+layout_mode = 2
+
+[node name="DisplayContainer" type="HBoxContainer" parent="DisplayBackground"]
 layout_mode = 2

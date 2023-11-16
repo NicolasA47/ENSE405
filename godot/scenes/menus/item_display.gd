@@ -8,3 +8,6 @@ class_name ItemDisplay
 
 func update_count(count: int):
 	label.text = str(count)
+
+func update_texture(texture_path: String):
+	texture_rect.texture = load(texture_path)
