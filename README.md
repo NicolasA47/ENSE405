@@ -6,6 +6,12 @@ In a world increasingly aware of environmental concerns, recycling stands out as
 ## Business Need
 Idle games captivate players with their uncomplicated yet addictive gameplay. Seeing the potential to combine this genre with the educational elements of recycling, "Idle Recycle" addresses the rising demand for games that entertain while educating. Our project taps into this desire for interactive learning, providing players with insights into how recycling impacts our environment.
 
+## Finilization Doccuments & Links
+- [Idle Recycle Final Report](Doccumentation/ENSE%20405%20Project%20Report.pdf)
+- [Final Project Status](Doccumentation/Final%20Project%20Status%20Report.pdf)
+- [Reflection Question Script](Doccumentation/End%20Of%20Project%20Reflection.pdf)
+- [Project Commercial](https://youtu.be/eAVXkjEjtJc)
+
 ## Initialization Documents
 Find all the documentation needed to understand the project's foundation here:
 
@@ -18,8 +24,9 @@ Find all the documentation needed to understand the project's foundation here:
 - [Technology Configuration Inventory](Doccumentation/InitializationDocs/pdf/Technology%20configuration%20inventory.pdf)
 
 ## Project Status Reports
-- [Project Status #1 - Nov 2](Doccumentation/Project%20Status%20Report%20-%20Scum%201.pdf)
+- [Final Project Status - Nov 28](Doccumentation/Final%20Project%20Status%20Report.pdf)
 - [Project Status #2 - Nov 16](Doccumentation/Project%20Status%20Report%20-%20Scrum%202.pdf)
+- [Project Status #1 - Nov 2](Doccumentation/Project%20Status%20Report%20-%20Scum%201.pdf)
 
 ## Meet the Team
 
