@@ -9,7 +9,7 @@ Idle games captivate players with their uncomplicated yet addictive gameplay. Se
 ## Finilization Doccuments & Links
 - [Idle Recycle Final Report](Doccumentation/ENSE%20405%20Project%20Report.pdf)
 - [Final Project Status](Doccumentation/Final%20Project%20Status%20Report.pdf)
-- [Reflection Question Script](Doccumentation/End%20Of%20Project%20Reflection.pdf)
+- [Relation To Class Topics (Script From Final)](Doccumentation/End%20Of%20Project%20Reflection.pdf)
 - [Project Commercial](https://youtu.be/eAVXkjEjtJc)
 
 ## Initialization Documents
